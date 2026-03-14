@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bloodshot Rivals Prototype</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div id="hud">
+      <div class="row"><span>Health:</span><span id="health">100</span></div>
+      <div class="row"><span>Ammo:</span><span id="ammo">30 / 90</span></div>
+      <div class="row"><span>Score:</span><span id="score">0</span></div>
+      <div class="row"><span>State:</span><span id="state">Click to Lock Cursor</span></div>
+    </div>
+    <div id="crosshair">+</div>
+    <div id="help">
+      <h1>Bloodshot: Rivals-like Sandbox</h1>
+      <p>WASD move, Mouse aim, LMB shoot, R reload, Shift sprint, Space jump.</p>
+      <p>This is a browser FPS sandbox with locally included OBJ 3D models.</p>
+    </div>
+    <script type="module" src="src/game.js"></script>
+  </body>
+</html>
